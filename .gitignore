@@ -1,2 +1,4 @@
 /target
 Cargo.lock
+nacos-rs-sdk-macro/target
+nacos-rs-sdk-macro/Cargo.lock

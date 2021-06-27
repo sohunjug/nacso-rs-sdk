@@ -1,0 +1,21 @@
+[package]
+name = "nacos-rs-sdk-macro"
+version = "0.1.1"
+authors = ["sohunjug <sohunjug@hotmail.com>"]
+edition = "2018"
+exclude = ["target"]
+include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md"]
+repository = "https://github.com/sohunjug/nacso-rs-sdk.git"
+
+description = "THIS PROJECT IS SUPPORTER FOR NACOS-RS-SDK"
+keywords = ["nacos", "nacos-api", "nacos-rs", "nacos-sdk", "nacos-rs-sdk"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.73"
+quote = "1.0.9"
+heck = "0.3.3"
