@@ -1,4 +1,5 @@
 pub mod config;
+pub mod instance;
 
 use async_trait::async_trait;
 use lazy_static::lazy_static;
@@ -7,20 +8,81 @@ use serde::Serialize;
 use std::error::Error;
 use std::time::Duration;
 
-use crate::model::config::NacosConfig;
+use crate::client::NacosClient;
 
 lazy_static! {
     pub(crate) static ref CLIENT: Client = Client::new();
 }
 
+pub trait Nacos {
+    fn get_token(&self) -> String;
+    fn get_nacos(&self) -> &Option<Box<NacosClient>>;
+    fn set_nacos(&mut self, nacos: &NacosClient);
+}
+
 #[async_trait]
-pub trait Get {
-    async fn get_from_uri(&self, nacos: &NacosConfig, uri: &str) -> Result<Response, Box<dyn Error>>
+pub trait Get: Nacos {
+    const URI: &'static str = "/";
+
+    async fn get(&self) -> Result<Response, Box<dyn Error>>
+    where
+        Self: Serialize,
+    {
+        // let token = match self.get_token() {
+        //         None => {},
+        //         Some(t) => &[("token", t.to_string()); 1],
+        // };
+        let token = self.get_token();
+        let res = if token == "" {
+            CLIENT.get(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+        } else {
+            CLIENT.get(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+        }.timeout(Duration::from_secs(10));
+        println!("{:?}",res);
+        let resp = res.send().await?;
+        println!("{:?}", resp);
+        Ok(resp)
+    }
+}
+
+#[async_trait]
+pub trait Post: Nacos {
+    const URI: &'static str = "/";
+
+    async fn post(&self) -> Result<Response, Box<dyn Error>>
+    where
+        Self: Serialize,
+    {
+        let token = self.get_token();
+        let res = if token == "" {
+            CLIENT.post(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+        } else {
+            CLIENT.post(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+        }.timeout(Duration::from_secs(10));
+        println!("{:?}",res);
+        let resp = res.send().await?;
+        println!("{:?}",resp);
+        Ok(resp)
+        // let resp = CLIENT
+        //     .post(self.get_nacos().unwrap().addr(Self::URI))
+        //     .query(&self)
+        //     .timeout(Duration::from_secs(10))
+        //     .send()
+        //     .await?;
+        // Ok(resp)
+    }
+}
+
+#[async_trait]
+pub trait Put: Nacos {
+    const URI: &'static str = "/";
+
+    async fn put(&self) -> Result<Response, Box<dyn Error>>
     where
         Self: Serialize,
     {
         let resp = CLIENT
-            .get(nacos.addr(uri))
+            .put(self.get_nacos().as_ref().unwrap().addr(Self::URI))
             .query(&self)
             .timeout(Duration::from_secs(10))
             .send()
@@ -30,87 +92,19 @@ pub trait Get {
 }
 
 #[async_trait]
-pub trait Post {
-    async fn post_from_uri(
-        &self,
-        nacos: &NacosConfig,
-        uri: &str,
-    ) -> Result<Response, Box<dyn Error>>
+pub trait Delete: Nacos {
+    const URI: &'static str = "/";
+
+    async fn delete(&self) -> Result<Response, Box<dyn Error>>
     where
         Self: Serialize,
     {
         let resp = CLIENT
-            .post(nacos.addr(uri))
+            .delete(self.get_nacos().as_ref().unwrap().addr(Self::URI))
             .query(&self)
             .timeout(Duration::from_secs(10))
             .send()
             .await?;
         Ok(resp)
-    }
-}
-
-#[async_trait]
-pub trait Put {
-    async fn put_from_uri(&self, nacos: &NacosConfig, uri: &str) -> Result<Response, Box<dyn Error>>
-    where
-        Self: Serialize,
-    {
-        let resp = CLIENT
-            .put(nacos.addr(uri))
-            .query(&self)
-            .timeout(Duration::from_secs(10))
-            .send()
-            .await?;
-        Ok(resp)
-    }
-}
-
-#[async_trait]
-pub trait Delete {
-    async fn delete_from_uri(
-        &self,
-        nacos: &NacosConfig,
-        uri: &str,
-    ) -> Result<Response, Box<dyn Error>>
-    where
-        Self: Serialize,
-    {
-        let resp = CLIENT
-            .delete(nacos.addr(uri))
-            .query(&self)
-            .timeout(Duration::from_secs(10))
-            .send()
-            .await?;
-        Ok(resp)
-    }
-}
-
-#[async_trait]
-pub trait Request {
-    async fn get(&self, nacos: &NacosConfig) -> Result<String, Box<dyn Error>>
-    where
-        Self: Get + Serialize,
-    {
-        let resp = self.get_from_uri(nacos, "").await?;
-        let result = resp.text().await?;
-        Ok(result)
-    }
-    async fn post(&self, nacos: &NacosConfig) -> Result<Response, Box<dyn Error>>
-    where
-        Self: Post + Serialize,
-    {
-        self.post_from_uri(nacos, "").await
-    }
-    async fn put(&self, nacos: &NacosConfig) -> Result<Response, Box<dyn Error>>
-    where
-        Self: Put + Serialize,
-    {
-        self.put_from_uri(nacos, "").await
-    }
-    async fn delete(&self, nacos: &NacosConfig) -> Result<Response, Box<dyn Error>>
-    where
-        Self: Delete + Serialize,
-    {
-        self.delete_from_uri(nacos, "").await
     }
 }

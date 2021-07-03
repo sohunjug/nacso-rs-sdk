@@ -1,10 +1,10 @@
 pub mod api;
-pub mod model;
 pub mod client;
+pub mod model;
 // pub mod util;
 
-pub use client::NacosClient;
 pub use api::config::Config;
+pub use client::NacosClient;
 pub use model::config::{NacosConfig, ServerConfig};
 
 extern crate lazy_static;

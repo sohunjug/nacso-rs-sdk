@@ -2,8 +2,8 @@
 use crate::api::CLIENT;
 use crate::client::NacosClient;
 // use reqwest::Response;
+use serde::{Deserialize, Serialize};
 use std::error::Error;
-use serde::{Serialize, Deserialize};
 
 #[derive(Debug, Clone)]
 pub struct NacosConfig {
@@ -35,7 +35,7 @@ struct Token {
     admin: bool,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Default, Debug, Clone)]
 struct Login {
     username: String,
     password: String,
@@ -45,7 +45,7 @@ impl Login {
     pub fn from(nacos: &NacosConfig) -> Self {
         Self {
             username: nacos.nacos_user.clone(),
-            password: nacos.nacos_pass.clone()
+            password: nacos.nacos_pass.clone(),
         }
     }
 }
@@ -122,9 +122,19 @@ impl NacosConfig {
     pub async fn connect_with_auth(&self) -> Result<NacosClient, Box<dyn Error>> {
         if self.auth {
             let login = Login::from(&self);
-            let res = CLIENT.post(self.addr("/v1/auth/login")).query(&login).send().await?;
+            println!("--> Login {:?}", login);
+            let res = CLIENT
+                .post(self.addr("/v1/auth/login"))
+                .query(&login)
+                .send()
+                .await?;
+            println!("--> Res {:?}", res);
             let result = res.json::<Token>().await?;
-            Ok(NacosClient::new_with_token(self.clone(), result.token.as_str()))
+            println!("--> Result {:?}", result);
+            Ok(NacosClient::new_with_token(
+                self.clone(),
+                result.token.as_str(),
+            ))
         } else {
             Ok(NacosClient::new(self.clone()))
         }

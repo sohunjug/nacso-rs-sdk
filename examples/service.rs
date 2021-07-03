@@ -1,15 +1,27 @@
-use nacos_rs_sdk::{NacosClient, NacosConfig, ServerConfig};
+use nacos_rs_sdk::api::instance::{Instance};
+use nacos_rs_sdk::api::{Nacos, Post};
+use nacos_rs_sdk::{NacosConfig};
 
 #[tokio::main]
 async fn main() {
     let config = test_nacos_config();
+    println!(" -- > {:?}", config);
     let client = config.connect_with_auth().await;
-    println!(" -- > {:?}", client);
+    println!(" -- > {:?}", &client);
+    let namespace_id = "18130d3d-598c-4794-af27-aa4c8fbfc6e4".to_string();
+    // let option = InstanceOptions {
+    //     cluster_name:None, group_name:None, namespace_id, ephemeral: true, weight:1.0, enabled:true, healthy:true, metadata:None,
+    // };
+    let mut instance = Instance::builder().cluster_name(Some("cta".to_string())).service_name("test".to_string()).ip("10.188.18.18".to_string()).port(8888).build().unwrap();
+    instance.set_nacos(&client.unwrap());
+    instance.set_namespace_id(&namespace_id.to_string());
+    println!(" -- > {:?}", instance);
+    println!(" -- > {:?}", instance.post().await);
     loop {}
 }
 
 fn test_nacos_config() -> NacosConfig {
-    NacosConfig::new_with_auth("http", "nacos.vvmm.ink", 8848, "vvmm", "vvmm")
+    NacosConfig::new_with_auth("http", "nacos.vvmm.ink", 8848, "nacos", "vvmm")
 }
 
 #[cfg(test)]

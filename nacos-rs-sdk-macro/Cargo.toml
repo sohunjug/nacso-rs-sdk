@@ -16,6 +16,7 @@ license = "Apache-2.0"
 proc-macro = true
 
 [dependencies]
-syn = "1.0.73"
+syn = { version = "1.0.73", features = ["extra-traits"] }
 quote = "1.0.9"
 heck = "0.3.3"
+proc-macro2 = { version = "1.0.24", features = [] }
