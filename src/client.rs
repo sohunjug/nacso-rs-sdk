@@ -24,14 +24,20 @@ impl NacosClient {
         self.session.addr(uri).clone()
     }
 
-    pub async fn register(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
+    pub async fn register_once(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
         let res = self.instance.as_ref().unwrap().post().await?;
+        Ok(res.text().await?)
+    }
+
+    pub async fn register(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let ins = self.instance.as_ref().unwrap();
+        let res = ins.post().await?;
+        self.instance.as_ref().unwrap().hart().await;
         Ok(res.text().await?)
     }
 
     pub async fn deregister(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
         let instance = DeInstance::from(self.instance().as_ref().unwrap());
-        println!("{:?}", &instance);
         let res = instance.delete().await?;
         Ok(res.text().await?)
     }

@@ -8,6 +8,7 @@ use reqwest::{Client, Response};
 use serde::Serialize;
 use std::error::Error;
 use std::time::Duration;
+use std::sync::{RwLock, Arc};
 
 use crate::client::NacosClient;
 
@@ -17,8 +18,9 @@ lazy_static! {
 
 pub trait Nacos {
     fn get_token(&self) -> String;
-    fn get_nacos(&self) -> &Option<Box<NacosClient>>;
-    fn set_nacos(&mut self, nacos: &NacosClient);
+    fn get_nacos(&self) -> NacosClient;
+    fn clone_nacos(&self) -> Arc<RwLock<NacosClient>>;
+    fn set_nacos(&mut self, nacos: &Arc<RwLock<NacosClient>>);
 }
 
 #[async_trait]
@@ -31,9 +33,9 @@ pub trait Get: Nacos {
     {
         let token = self.get_token();
         let res = if token == "" {
-            CLIENT.get(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+            CLIENT.get(self.get_nacos().addr(Self::URI)).query(&self)
         } else {
-            CLIENT.get(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+            CLIENT.get(self.get_nacos().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
         }.timeout(Duration::from_secs(10));
         println!("{:?}",res);
         let resp = res.send().await?;
@@ -52,9 +54,9 @@ pub trait Post: Nacos {
     {
         let token = self.get_token();
         let res = if token == "" {
-            CLIENT.post(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+            CLIENT.post(self.get_nacos().addr(Self::URI)).query(&self)
         } else {
-            CLIENT.post(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+            CLIENT.post(self.get_nacos().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
         }.timeout(Duration::from_secs(10));
         println!("{:?}",res);
         let resp = res.send().await?;
@@ -73,9 +75,9 @@ pub trait Put: Nacos {
     {
        let token = self.get_token();
         let res = if token == "" {
-            CLIENT.put(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+            CLIENT.put(self.get_nacos().addr(Self::URI)).query(&self)
         } else {
-            CLIENT.put(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+            CLIENT.put(self.get_nacos().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
         }.timeout(Duration::from_secs(10));
         println!("{:?}",res);
         let resp = res.send().await?;
@@ -94,9 +96,9 @@ pub trait Delete: Nacos {
     {
        let token = self.get_token();
         let res = if token == "" {
-            CLIENT.delete(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&self)
+            CLIENT.delete(self.get_nacos().addr(Self::URI)).query(&self)
         } else {
-            CLIENT.delete(self.get_nacos().as_ref().unwrap().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
+            CLIENT.delete(self.get_nacos().addr(Self::URI)).query(&[("accessToken", token)]).query(&self)
         }.timeout(Duration::from_secs(10));
         println!("{:?}",res);
         let resp = res.send().await?;

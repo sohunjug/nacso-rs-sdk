@@ -4,6 +4,7 @@ use nacos_rs_sdk_macro::{Delete, Get, Nacos, Post, Builder, Value};
 use reqwest::Response;
 use serde::{Deserialize, Serialize};
 use std::error::Error;
+use std::sync::{RwLock, Arc};
 // use std::time::Duration;
 // use tokio::{task, time};
 
@@ -19,7 +20,7 @@ pub struct Config {
     pub types: Option<String>,
     pub content: Option<String>,
     #[serde(skip)]
-    pub(crate) nacos: Option<Box<NacosClient>>,
+    pub(crate) nacos: Option<Arc<RwLock<NacosClient>>>,
 }
 
 impl Config {

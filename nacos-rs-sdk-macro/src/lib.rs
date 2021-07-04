@@ -139,15 +139,18 @@ pub fn nacos_derive(item: TokenStream) -> TokenStream {
         impl #impl_generics Nacos for #name #ty_generics #where_clause {
             fn get_token(&self) -> String {
                 match self.nacos.clone() {
-                    Some(n) => (*n).token.unwrap_or("".to_string()).clone(),
+                    Some(n) => n.read().unwrap().clone().token.unwrap_or("".to_string()),
                     None => "".to_string(),
                 }
             }
-            fn get_nacos(&self) -> &Option<Box<NacosClient>> {
-                &self.nacos
+            fn get_nacos(&self) -> NacosClient {
+                self.nacos.clone().unwrap().read().unwrap().clone()
             }
-            fn set_nacos(&mut self, nacos: &NacosClient) {
-                self.nacos = Some(Box::new(nacos.clone()));
+            fn clone_nacos(&self) -> Arc<RwLock<NacosClient>> {
+                self.nacos.clone().unwrap()
+            }
+            fn set_nacos(&mut self, nacos: &Arc<RwLock<NacosClient>>) {
+                self.nacos = Some(nacos.clone());
             }
         }
     )

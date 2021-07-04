@@ -1,31 +1,32 @@
-use crate::model::{Nacos, Post, Put};
+use crate::model::{Nacos, Put};
 // use crate::client::NacosClient;
 use crate::model::instance::{Instance, DeInstance, QueryInstances, InstanceBeat};
+// use std::borrow::Borrow;
 // use nacos_rs_sdk_macro::{Delete, Get, Nacos, Post, Put, Value, Builder};
 // use reqwest::Response;
 // use serde::{Deserialize, Serialize};
+// use std::sync::{Arc, RwLock};
 use std::error::Error;
 use std::time::Duration;
 use tokio::{task, time};
 
 impl Instance {
     pub async fn hart(&self) {
-        if let Err(e)= self.post().await {
-            panic!("{:?}", e);
-        }
         task::spawn(hart_beat_thread(self.clone()));
+    }
+    pub async fn hart_beat(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self.put().await?;
+        let result = res.text().await?;
+        Ok(result)
     }
 }
 
 impl InstanceBeat {
-    pub async fn hart_beat(&self) -> Result<InstanceBeat, Box<dyn Error + Send + Sync>> {
-        let res = self.put().await?;
-        Ok(res.json::<InstanceBeat>().await?)
-    }
-    pub async fn hart_beat_weight(&mut self, beat :&str) -> Result<InstanceBeat, Box<dyn Error + Send + Sync>> {
+    pub async fn hart_beat_weight(&mut self, beat :&str) -> Result<String, Box<dyn Error + Send + Sync>> {
         self.beat = beat.to_string();
         let res = self.put().await?;
-        Ok(res.json::<InstanceBeat>().await?)
+        let result = res.text().await?;
+        Ok(result)
     }
 }
 
@@ -41,41 +42,46 @@ impl DeInstance {
             ephemeral: instance.ephemeral(),
             nacos: None,
         };
-        s.set_nacos(instance.get_nacos().as_ref().unwrap());
+        s.set_nacos(&instance.clone_nacos());
         s
     }
 }
 
+// impl QueryInstances {
+//     pub fn
+// }
+
 async fn hart_beat_thread(instance: Instance) {
-    let mut client = InstanceBeat::builder().service_name(instance.service_name.clone()).instance(instance.clone()).build().unwrap();
-    let mut beat: Option<String> = None;
+    let mut client = InstanceBeat::builder().service_name(instance.service_name.clone()).instance(instance.clone()).beat("".to_owned()).build().unwrap();
+    client.set_nacos(&instance.clone_nacos());
+    let beat: Option<String> = None;
+    let ok = "ok".to_owned();
     'hb: loop {
         let br = match &beat {
             None => {
-                client.hart_beat().await
+                instance.hart_beat().await
             }
             Some(bt) => {
                 client.hart_beat_weight(&bt).await
             }
         };
         match br {
-            Ok(nb) => {
-                // let instance = client.nacos.unwrap().instance();
-                //如果重拍 获取信息
-                if !nb.light_beat_enabled.unwrap() {
-                    let bt = match client.nacos.as_ref().unwrap().register().await {
+            Ok(o) => {
+                if o == ok {
+                    let c = client.nacos.as_ref().unwrap().clone();
+                    let cc =
+                    {
+                        c.write().unwrap().clone()
+                    };
+                    match cc.register_once().await {
                         Ok(beat) => { beat }
                         Err(e) => {
                             println!(" -- hart beat query info err : {:?}", e);
                             break 'hb;
                         }
                     };
-                    beat = Some(bt);
                 }
-                // delay
-                let delay = if nb.client_beat_interval.unwrap() > 2
-                { nb.client_beat_interval.unwrap() - 2 } else { nb.client_beat_interval.unwrap() };
-                time::sleep(Duration::from_millis(delay)).await;
+                time::sleep(Duration::from_millis(10000)).await;
             }
             Err(e) => {
                 println!(" -- hart beat err : {:?}", e);

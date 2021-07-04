@@ -1,6 +1,6 @@
 [package]
 name = "nacos-rs-sdk-macro"
-version = "0.2.0"
+version = "0.2.2"
 authors = ["sohunjug <sohunjug@hotmail.com>"]
 edition = "2018"
 exclude = ["target"]

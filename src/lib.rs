@@ -5,7 +5,7 @@ pub mod model;
 
 pub use model::config::Config;
 pub use client::NacosClient;
-pub use model::nacos::{NacosConfig, ServerConfig};
+pub use model::nacos::NacosConfig;
 
 extern crate lazy_static;
 

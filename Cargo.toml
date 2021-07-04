@@ -1,6 +1,6 @@
 [package]
 name = "nacos-rs-sdk"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["sohunjug <sohunjug@hotmail.com>"]
 edition = "2018"
 
@@ -16,7 +16,7 @@ license = "Apache-2.0"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
-# nacos-rs-sdk-macro = "0.1.1"
+# nacos-rs-sdk-macro = "0.2.1"
 nacos-rs-sdk-macro = { path = "./nacos-rs-sdk-macro" }
 reqwest = { version = "0.11", features = ["json"] }
 serde = { version = "1.0.126", features = ["derive"] }
