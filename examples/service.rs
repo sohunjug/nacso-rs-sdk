@@ -1,22 +1,29 @@
-use nacos_rs_sdk::api::instance::{Instance};
-use nacos_rs_sdk::api::{Nacos, Post};
+use nacos_rs_sdk::model::instance::{Instance};
+use nacos_rs_sdk::model::{Nacos, Post};
 use nacos_rs_sdk::{NacosConfig};
+use std::error::Error;
+use std::time::Duration;
+use tokio::{task, time};
 
 #[tokio::main]
 async fn main() {
     let config = test_nacos_config();
     println!(" -- > {:?}", config);
-    let client = config.connect_with_auth().await;
+    let mut client = config.connect_with_auth().await.unwrap();
     println!(" -- > {:?}", &client);
     let namespace_id = "18130d3d-598c-4794-af27-aa4c8fbfc6e4".to_string();
     // let option = InstanceOptions {
     //     cluster_name:None, group_name:None, namespace_id, ephemeral: true, weight:1.0, enabled:true, healthy:true, metadata:None,
     // };
-    let mut instance = Instance::builder().cluster_name(Some("cta".to_string())).service_name("test".to_string()).ip("10.188.18.18".to_string()).port(8888).build().unwrap();
-    instance.set_nacos(&client.unwrap());
+    let mut instance = Instance::builder().cluster_name("cta".to_string()).service_name("test".to_string()).ip("10.188.18.18".to_string()).port(8888).build().unwrap();
+    instance.set_nacos(&client.clone());
     instance.set_namespace_id(&namespace_id.to_string());
+    client.set_instance(&instance);
     println!(" -- > {:?}", instance);
-    println!(" -- > {:?}", instance.post().await);
+    println!(" -- > Register {:?}", &client.register().await);
+    // println!(" -- > {:?}", instance.post().await);
+    time::sleep(Duration::from_millis(5000)).await;
+    println!(" -- > DeRegister {:?}", &client.deregister().await);
     loop {}
 }
 

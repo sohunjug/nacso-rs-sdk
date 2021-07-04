@@ -1,52 +1,38 @@
-use crate::api::config::Config;
-use crate::api::Nacos;
-use crate::model::config::NacosConfig;
+use crate::model::{Post, Delete};
+use crate::model::config::Config;
+use crate::model::instance::{Instance, DeInstance};
+// use crate::api::Nacos;
+use crate::model::nacos::NacosConfig;
+use nacos_rs_sdk_macro::{Builder, Value};
 // use reqwest::Response;
-// use std::error::Error;
+use std::error::Error;
 // use std::time::Duration;
 // use tokio::task;
 // use tokio::time;
 // use crate::api::Get;
 
-#[derive(Debug, Clone)]
+#[derive(Default, Debug, Clone, Builder, Value)]
 pub struct NacosClient {
     session: NacosConfig,
     pub(crate) token: Option<String>,
     config: Option<Config>,
+    instance: Option<Instance>,
 }
 
 impl NacosClient {
-    pub fn new(session: NacosConfig) -> Self {
-        Self {
-            session,
-            token: None,
-            config: None,
-        }
-    }
-    pub fn new_with_token(session: NacosConfig, token: &str) -> Self {
-        Self {
-            session,
-            token: Some(token.to_string()),
-            config: None,
-        }
-    }
-    pub fn session(&self) -> &NacosConfig {
-        &self.session
-    }
-    pub fn config(&self) -> &Option<Config> {
-        &self.config
-    }
-    pub fn set_config(&mut self, config: &mut Config) {
-        config.set_nacos(&self);
-        self.config = Some(config.clone());
-    }
     pub fn addr(&self, uri: &str) -> String {
         self.session.addr(uri).clone()
     }
-    // pub async fn get<T>(&self, structure: T) -> Result<Response, Box<dyn Error>>
-    //     where
-    //         T: Get + Send + 'static
-    // {
-    //     structure.get().await
-    // }
+
+    pub async fn register(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self.instance.as_ref().unwrap().post().await?;
+        Ok(res.text().await?)
+    }
+
+    pub async fn deregister(&self) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let instance = DeInstance::from(self.instance().as_ref().unwrap());
+        println!("{:?}", &instance);
+        let res = instance.delete().await?;
+        Ok(res.text().await?)
+    }
 }

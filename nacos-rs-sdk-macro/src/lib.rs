@@ -1,8 +1,8 @@
 use proc_macro::TokenStream;
-use quote::quote;
-use std::iter::FromIterator;
 use proc_macro2::Span;
 use proc_macro2::TokenStream as TokenStream2;
+use quote::quote;
+use std::iter::FromIterator;
 use syn::{parse_macro_input, parse_quote, Data, DeriveInput, Fields, GenericParam, Ident, Type};
 
 #[proc_macro_derive(Value)]
@@ -60,24 +60,36 @@ pub fn derive(input: TokenStream) -> TokenStream {
     if let Data::Struct(r#struct) = input.data {
         let fields = r#struct.fields;
         if matches!(&fields, Fields::Named(_)) {
-            let builder_fields = map_fields(&fields, |(ident, ty)| quote!(#ident: Option<#ty>, ));
+            let builder_fields = map_fields(&fields, |(ident, ty)| {
+                if let Some(_) = get_optional_inner_type(ty) {
+                    quote!(#ident: #ty, )
+                } else {
+                    quote!(#ident: Option<#ty>, )
+                }
+            });
             let builder_set_fields = map_fields(&fields, |(ident, ty)| {
-                quote!(pub fn #ident(mut self, value: #ty) -> Self {
-                    self.#ident = Some(value);
-                    self
-                })
+                if let Some(to) = get_optional_inner_type(ty) {
+                    quote!(pub fn #ident(mut self, value: #to) -> Self {
+                        self.#ident = Some(value);
+                        self
+                    })
+                } else {
+                    quote!(pub fn #ident(mut self, value: #ty) -> Self {
+                        self.#ident = Some(value);
+                        self
+                    })
+                }
             });
             let builder_token_stream = map_fields(&fields, |(ident, ty)| {
                 if let Some(_) = get_optional_inner_type(ty) {
                     quote!(
-                        let #ident = self.#ident.unwrap_or(None);
+                        let #ident = self.#ident;
                     )
                 } else {
                     quote!(
-                        let #ident = self.#ident.ok_or(format!(
-                            "field \"{}\" required, but not set yet.",
-                            stringify!(#ident),
-                        ))?;
+                        let #ident = self.#ident.ok_or(
+                            format!("field \"{}\" required, but not set yet.",stringify!(#ident))
+                            )?;
                     )
                 }
             });
@@ -103,8 +115,7 @@ pub fn derive(input: TokenStream) -> TokenStream {
                         Ok(#ident { #build_values })
                     }
                 }
-            )
-            .into();
+            ).into();
             return result;
         }
     }
@@ -157,9 +168,13 @@ pub fn get_derive(input: TokenStream) -> TokenStream {
 
     let (impl_generics, ty_generics, where_clause) = generics.split_for_impl();
 
+    let uri = Ident::new(
+        &format!("{}_URI", name.to_string().to_uppercase()),
+        Span::call_site(),
+    );
     quote! (
         impl #impl_generics Get for #name #ty_generics #where_clause {
-            const URI: &'static str = API_URI;
+            const URI: &'static str = #uri;
         }
     )
     .into()
@@ -179,9 +194,13 @@ pub fn post_derive(input: TokenStream) -> TokenStream {
 
     let (impl_generics, ty_generics, where_clause) = generics.split_for_impl();
 
+    let uri = Ident::new(
+        &format!("{}_URI", name.to_string().to_uppercase()),
+        Span::call_site(),
+    );
     quote! (
         impl #impl_generics Post for #name #ty_generics #where_clause {
-            const URI: &'static str = API_URI;
+            const URI: &'static str = #uri;
         }
     )
     .into()
@@ -201,9 +220,13 @@ pub fn put_derive(input: TokenStream) -> TokenStream {
 
     let (impl_generics, ty_generics, where_clause) = generics.split_for_impl();
 
+    let uri = Ident::new(
+        &format!("{}_URI", name.to_string().to_uppercase()),
+        Span::call_site(),
+    );
     quote! (
         impl #impl_generics Put for #name #ty_generics #where_clause {
-            const URI: &'static str = API_URI;
+            const URI: &'static str = #uri;
         }
     )
     .into()
@@ -223,9 +246,13 @@ pub fn delete_derive(input: TokenStream) -> TokenStream {
 
     let (impl_generics, ty_generics, where_clause) = generics.split_for_impl();
 
+    let uri = Ident::new(
+        &format!("{}_URI", name.to_string().to_uppercase()),
+        Span::call_site(),
+    );
     quote! (
         impl #impl_generics Delete for #name #ty_generics #where_clause {
-            const URI: &'static str = API_URI;
+            const URI: &'static str = #uri;
         }
     )
     .into()
@@ -250,7 +277,16 @@ where
     TokenStream2::from_iter(
         fields
             .iter()
-            .map(|field| (field.ident.as_ref().unwrap(), Ident::new(&format!("set_{}", field.ident.as_ref().unwrap().to_string()), Span::call_site()), &field.ty))
+            .map(|field| {
+                (
+                    field.ident.as_ref().unwrap(),
+                    Ident::new(
+                        &format!("set_{}", field.ident.as_ref().unwrap().to_string()),
+                        Span::call_site(),
+                    ),
+                    &field.ty,
+                )
+            })
             .map(mapper),
     )
 }
