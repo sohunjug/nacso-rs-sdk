@@ -1,0 +1,2823 @@
+
+chdir(/Applications/MacVim.app/Contents/Resources/vim)
+fchdir() to previous dir
+执行 "$VIM/vimrc"
+结束执行 $VIM/vimrc
+chdir(/Users/sohunjug)
+fchdir() to previous dir
+不能执行 "$HOME/.vimrc"
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+执行 "~/.vim/vimrc"
+chdir(/Users/sohunjug/.vim/autoload)
+fchdir() to previous dir
+第 44 行: 执行 "/Users/sohunjug/.vim/autoload/plug.vim"
+结束执行 /Users/sohunjug/.vim/autoload/plug.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 45 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plug.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plug.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect)
+fchdir() to previous dir
+第 4 行: 执行 "/Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect/csv.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect/csv.vim
+在 <SNR>3_source 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 83 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 148 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 148 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras)
+fchdir() to previous dir
+第 3602 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 86 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 19 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+执行 FileType 自动命令 "*"
+自动命令 exe "set syntax=" . expand("<amatch>")
+
+执行 Syntax 自动命令 "*"
+自动命令 call s:SynSet()
+
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+在 plug#end 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload)
+fchdir() to previous dir
+第 18 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/rpc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/rpc.vim
+在 coc#config 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-clap.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-clap.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/fzf.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/fzf.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/gina.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/gina.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc-fzf.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc-fzf.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/caw.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/caw.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-doge.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-doge.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/indentLine.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/indentLine.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/clever-f.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/clever-f.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-rooter.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-rooter.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-bookmarks.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-bookmarks.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/ultisnips.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/ultisnips.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/neoformat.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/neoformat.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/rainbow.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/rainbow.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload)
+fchdir() to previous dir
+第 20 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vista.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vista.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-surround.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-surround.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-better-whitespace.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-better-whitespace.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-choosewin.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-choosewin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easymotion.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easymotion.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easy-align.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easy-align.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-visual-multi.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-visual-multi.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-floaterm.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-floaterm.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimwiki.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimwiki.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-markdown.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-markdown.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-startify.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-startify.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload)
+fchdir() to previous dir
+第 156 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload/which_key.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload/which_key.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/dict.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/dict.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx)
+fchdir() to previous dir
+第 229 行: 执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/custom.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/custom.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx)
+fchdir() to previous dir
+第 3 行: 执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/util.vim
+在 defx#custom#column 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/close-buffers.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/close-buffers.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimtex.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimtex.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/zoomwintab.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/zoomwintab.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-polyglot.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-polyglot.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-log-highlighting.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-log-highlighting.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload/syncfile.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload/syncfile.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/MatchTagAlways.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/MatchTagAlways.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-hexokinase.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-hexokinase.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-go.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-go.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/goyo.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/goyo.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/limelight.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/limelight.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/undotree.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/undotree.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/VimFMZ.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/VimFMZ.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/custom)
+fchdir() to previous dir
+第 107 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/custom/alt.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/custom/alt.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/custom)
+fchdir() to previous dir
+第 107 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/custom/session.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/custom/session.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 112 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/base.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 3 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 15 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim"
+执行 BufEnter 自动命令 "*"
+自动命令 syn clear
+
+自动命令 if exists("b:current_syntax") | unlet b:current_syntax | endif
+
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 19 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+执行 FileType 自动命令 "*"
+自动命令 exe "set syntax=" . expand("<amatch>")
+
+执行 Syntax 自动命令 "*"
+自动命令 call s:SynSet()
+
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 4 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 114 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/keymap.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/keymap.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 116 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/theme.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/srcery-vim/colors)
+fchdir() to previous dir
+第 26 行: 执行 "/Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 8 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 11 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 13 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/colors)
+fchdir() to previous dir
+第 30 行: 执行 "/Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 13 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 15 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+结束执行 ~/.vim/vimrc
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin/coc.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/util.vim
+在 coc#rpc#start_server 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 14 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/client.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/client.vim
+在 coc#rpc#start_server 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin/coc.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-clap/plugin/clap.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-clap/plugin/clap.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin/fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin/fzf.vim
+chdir(/Users/sohunjug/.fzf/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.fzf/plugin/fzf.vim"
+结束执行 /Users/sohunjug/.fzf/plugin/fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin/gitmessenger.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin/gitmessenger.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/gina.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/gina.vim/plugin/gina.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/gina.vim/plugin/gina.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin/coc_fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin/coc_fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/caw.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/caw.vim/plugin/caw.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/caw.vim/plugin/caw.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin/LanguageTool.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin/LanguageTool.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin/clever-f.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin/clever-f.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin/rooter.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin/rooter.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin/vimsnippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin/vimsnippets.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips)
+fchdir() to previous dir
+第 28 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips/map_keys.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips/map_keys.vim
+在 /Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/neoformat/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/neoformat/plugin/neoformat.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/neoformat/plugin/neoformat.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/plugin/rainbow_main.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/plugin/rainbow_main.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 293 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/init.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/init.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 128 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/parts.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/parts.vim
+在 airline#init#bootstrap 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter)
+fchdir() to previous dir
+第 144 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter/short_path.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter/short_path.vim
+在 airline#init#bootstrap 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 71 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/util.vim
+在 <SNR>98_airline_toggle 中继续
+没有匹配的自动命令
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin/airline-themes.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin/airline-themes.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vista.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vista.vim/plugin/vista.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vista.vim/plugin/vista.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-surround/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-surround/plugin/surround.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-surround/plugin/surround.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin/better-whitespace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin/better-whitespace.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm)
+fchdir() to previous dir
+第 59 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/plugs.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/plugs.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm)
+fchdir() to previous dir
+第 60 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps)
+fchdir() to previous dir
+第 13 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps/all.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps/all.vim
+在 <SNR>109_build_permanent_maps 中继续
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Switch Mode"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Surround"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Next"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Prev"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Goto Next"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Operator"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Goto Prev"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Remove Region"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Invert Direction"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin/anyfold.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin/anyfold.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/plugin/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/plugin/startify.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin/which_key.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin/which_key.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin/defx.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin/defx.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-icons/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/defx-icons/plugin/defx_icons.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx-icons/plugin/defx_icons.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin/bclose.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin/bclose.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin/close-buffers.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin/close-buffers.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin/smoothie.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin/smoothie.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin/vimcdoc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin/vimcdoc.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin/syncfile.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin/syncfile.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase)
+fchdir() to previous dir
+第 24 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/v1.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/v1.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 15 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/full_hex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/full_hex.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 17 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/triple_hex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/triple_hex.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 19 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgb.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgb.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 21 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgba.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgba.vim
+在 hexokinase#v1#setup 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/config.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/config.vim
+在 <SNR>127_checkVersion 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go)
+fchdir() to previous dir
+第 271 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/util.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin/apathy.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin/apathy.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin/startuptime.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin/startuptime.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/undotree/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/undotree/plugin/undotree.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/undotree/plugin/undotree.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin/fmzsync.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin/fmzsync.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim"
+--- 自动命令 ---
+coc_nvim  CursorHold
+    *         call coc#float#check_related()
+	最近修改于 ~/.cache/vim/plugins/coc.nvim/plugin/coc.vim line 302
+              call s:Autocmd('CursorHold', +expand('<abuf>'))
+	最近修改于 ~/.cache/vim/plugins/coc.nvim/plugin/coc.vim line 323
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/macros)
+fchdir() to previous dir
+第 99 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.fzf)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/git-messenger.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gina.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/caw.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-deus)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-monokai)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-one)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox-material)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/forest-night)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/srcery-vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/nord-vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hybrid)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-colors-solarized)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/oceanic-material)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/indentLine)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/clever-f.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-rooter)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-snippets)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/neoformat)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline-themes)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/tender.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vista.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-surround)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-repeat)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/nvim-yarp)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hug-neovim-rpc)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-icons)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-git)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/bclose.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/close-buffers.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-smoothie)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vimcdoc)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-apathy)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startuptime)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/undotree)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/VimFMZ)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/vimfiles)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+chdir(/Users/sohunjug/.vim/pack/kite/start)
+fchdir() to previous dir
+chdir(/Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 21 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf)
+fchdir() to previous dir
+第 8 行: 执行 "/Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf/vim.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf/vim.vim
+在 /Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin/indentLine.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin/indentLine.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin/UltiSnips_after.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin/UltiSnips_after.vim
+Reading viminfo file "/Users/sohunjug/.viminfo" 信息 oldfiles 失败
+执行 BufWinEnter 自动命令 "*"
+自动命令 if &ft == "" && expand("<afile>:e") == "" | call s:Observe('shebang#Detect') | endif
+
+执行 BufWinEnter 自动命令 "*"
+自动命令 call s:Autocmd('BufWinEnter', +expand('<abuf>'), win_getid())
+
+执行 BufWinEnter 自动命令 "*"
+自动命令 let g:__clap_buffers[bufnr('')] = reltimefloat(reltime())
+
+执行 BufWinEnter 自动命令 "*"
+自动命令 let g:fzf#vim#buffers[bufnr('')] = reltimefloat(reltime())
+
+执行 BufWinEnter 自动命令 "*"
+自动命令 call <sid>on_window_changed('BufWinEnter')
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 6 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions.vim
+在 <SNR>98_init 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 16 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/quickfix.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/quickfix.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 30 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/gina.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/gina.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 40 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/netrw.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/netrw.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 46 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/fzf.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 58 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 11 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/section.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/section.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/highlighter.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/highlighter.vim
+在 <SNR>160_wrap_accent 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 92 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/undotree.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/undotree.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 102 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/hunks.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/hunks.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 120 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vista.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vista.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 126 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/bookmark.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/bookmark.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 156 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/branch.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/branch.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 228 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/whitespace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/whitespace.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 238 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/po.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/po.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 243 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/wordcount.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/wordcount.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 248 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 6 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/autoshow.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 7 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabs.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 8 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buffers.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 298 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/keymap.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/keymap.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/autoload)
+fchdir() to previous dir
+第 313 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/autoload/vimtex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/autoload/vimtex.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 315 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vimtex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vimtex.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 326 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/searchcount.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/searchcount.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes)
+fchdir() to previous dir
+第 14 行: 执行 "/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes/gruvbox.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/themes.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/themes.vim
+在 airline#themes#gruvbox#refresh 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes/gruvbox.vim
+在 airline#switch_theme 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/builder.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/builder.vim
+在 <SNR>39_invoke_funcrefs 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/default.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/default.vim
+在 airline#util#exec_funcrefs 中继续
+没有匹配的自动命令
+执行 User 自动命令 "AirlineModeChanged"
+自动命令 call airline#mode_changed()
+
+没有匹配的自动命令
+没有匹配的自动命令
+执行 BufWinEnter 自动命令 "*"
+自动命令 call <SID>SetupAutoCommands()
+
+处理 BufWinEnter 自动命令 "*"..function <SNR>106_SetupAutoCommands[11]..<SNR>106_HighlightEOLWhitespace[1]..<SNR>106_ClearHighlighting 时发生错误:
+第    1 行:
+E802: Invalid ID: -1 (must be greater than or equal to 1)
+执行 BufWinEnter 自动命令 "*"
+自动命令 call s:IndentLinesDisable() | call s:LeadingSpaceDisable() | call s:Setup()
+
+执行 BufEnter 自动命令 "*"
+自动命令 call s:detect_indent()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot)
+fchdir() to previous dir
+第 17 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/sleuth.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/sleuth.vim
+在 <SNR>7_detect_indent 中继续
+执行 BufEnter 自动命令 "*"
+自动命令 call s:Autocmd('BufEnter', +expand('<abuf>'))
+
+执行 BufEnter 自动命令 "*"
+自动命令 if !g:rooter_manual_only | Rooter | endif
+
+执行 BufEnter 自动命令 "*"
+自动命令 sil call s:LocalBrowse(expand("<amatch>"))
+
+执行 BufEnter 自动命令 "*"
+自动命令 call kite#bufenter()
+
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite.vim"
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/utils.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/utils.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/autoload/kite.vim 中继续
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite.vim
+在 BufEnter 自动命令 "*" 中继续
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/languages.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/languages.vim
+在 kite#bufenter 中继续
+执行 VimEnter 自动命令 "*"
+自动命令 call PolyglotVerify()
+
+自动命令 :if argc() is 0 | Startify | endif
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/autoload/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/autoload/startify.vim
+在 VimEnter 自动命令 "*" 中继续
+执行 BufDelete 自动命令 "*"
+自动命令 call s:OnBufDelete(+expand('<abuf>'))
+
+执行 BufDelete 自动命令 "*"
+自动命令 silent! call remove(g:fzf#vim#buffers, expand('<abuf>'))
+
+执行 BufDelete 自动命令 "*"
+自动命令 call airline#extensions#tabline#tabs#invalidate()
+
+执行 BufDelete 自动命令 "*"
+自动命令 call airline#extensions#tabline#buflist#clean()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buflist.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+在 BufDelete 自动命令 "*" 中继续
+startify: Can't read viminfo file. Read :help startify-faq-02
+处理 VimEnter 自动命令 "*"..function startify#insane_in_the_membrane 时发生错误:
+第  119 行:
+E490: 找不到折叠
+执行 FileType 自动命令 "*"
+自动命令 call s:LoadFTPlugin()
+
+not found in 'runtimepath': "ftplugin/startify.vim ftplugin/startify_*.vim ftplugin/startify/*.vim"
+执行 FileType 自动命令 "*"
+自动命令 call s:LoadIndent()
+
+not found in 'runtimepath': "indent/startify.vim"
+执行 FileType 自动命令 "*"
+自动命令 AnyFoldActivate               " activate for all filetypes
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload/anyfold.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload/anyfold.vim
+在 FileType 自动命令 "*" 中继续
+没有匹配的自动命令
+执行 FileType 自动命令 "*"
+自动命令 exe "set syntax=" . expand("<amatch>")
+
+执行 Syntax 自动命令 "*"
+自动命令 call s:SynSet()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/syntax)
+fchdir() to previous dir
+第 25 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/syntax/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/syntax/startify.vim
+在 <SNR>20_SynSet 中继续
+执行 Syntax 自动命令 "*"
+自动命令 call rainbow_main#load()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow_main.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow_main.vim
+在 Syntax 自动命令 "*" 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/autoload)
+fchdir() to previous dir
+第 3 行: 执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow.vim
+在 rainbow_main#load 中继续
+执行 Syntax 自动命令 "*"
+自动命令 call s:InitColor()
+
+执行 FileType 自动命令 "*"
+自动命令 call s:Autocmd('FileType', expand('<amatch>'), +expand('<abuf>'))
+
+执行 FileType 自动命令 "*"
+自动命令 call <sid>on_window_changed('FileType')
+
+执行 FileType 自动命令 "*"
+自动命令 call <SID>SetupAutoCommands()
+
+执行 FileType 自动命令 "*"
+自动命令 call s:register()
+
+执行 FileType 自动命令 "*"
+自动命令 call s:Disable()
+
+执行 VimEnter 自动命令 "*"
+自动命令 call coc#rpc#notify('VimEnter', [])
+
+执行 VimEnter 自动命令 "*"
+自动命令 call clap#provider#yanks#init()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider/yanks.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider/yanks.vim
+在 VimEnter 自动命令 "*" 中继续
+执行 VimEnter 自动命令 "*"
+自动命令 if !g:rooter_manual_only | Rooter | endif
+
+执行 VimEnter 自动命令 "*"
+自动命令 call <sid>on_window_changed('VimEnter')
+
+执行 VimEnter 自动命令 "*"
+自动命令 call s:vm_registers()
+
+执行 VimEnter 自动命令 "*"
+自动命令 call s:on_vimenter()
+
+执行 VimEnter 自动命令 "*"
+自动命令 sil call s:VimEnter(expand("<amatch>"))
+
+执行 VimEnter 自动命令 "*"
+自动命令 if g:kite_completions | call kite#configure_completeopt() | endif
+
+  completeopt=menu,preview
+自动命令 if kite#utils#kite_running() && &filetype !~# '^git' | call kite#onboarding#call(0) | endif
+
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/async.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/async.vim
+在 kite#utils#kite_running 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 9 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/api.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/api.vim
+在 kite#async#sync 中继续
+执行 VimEnter 自动命令 "*"
+自动命令 call s:VimEnter()
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call s:Autocmd('CursorMoved', +expand('<abuf>'), [line('.'), col('.')])
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call <sid>on_cursor_moved()
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call s:Highlight_Matching_Pair()
+
+执行 CursorMoved 自动命令 "<buffer=1>"
+自动命令 call s:set_cursor()
+
+执行 TextChanged 自动命令 "*"
+自动命令 call s:Autocmd('TextChanged', +expand('<abuf>'), getbufvar(+expand('<abuf>'), 'changedtick'))
+
+执行 TextChanged 自动命令 "*"
+自动命令 call s:Highlight_Matching_Pair()
+
+执行 TextChanged 自动命令 "<buffer=1>"
+自动命令 call s:ReloadFolds()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 9 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+在 airline#extensions#tabline#get 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabws.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabws.vim
+在 airline#extensions#tabline#get 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 15 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/builder.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/builder.vim
+在 airline#extensions#tabline#new_builder 中继续
+执行 User 自动命令 "AirlineModeChanged"
+自动命令 call airline#mode_changed()
+
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin/coc_explorer.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin/coc_explorer.vim
+在 43 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/highlight.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/highlight.vim
+在 41 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin/fzf_preview.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin/fzf_preview.vim
+在 43 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/mappings.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/mappings.vim
+在 41 中继续
+执行 User 自动命令 "CocGitStatusChange"
+自动命令 call CocHelperCallFn_0_9_4('1_util', 'run_coc_cmd_async', ['coc-helper.internal.didVimEvent_2', 'CocGitStatusChange'])
+
+chdir(/var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vFPfp5V/coc.nvim-77962)
+fchdir() to previous dir
+第 5 行: 执行 "/var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vFPfp5V/coc.nvim-77962/coc-77962.vim"
+结束执行 /var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vFPfp5V/coc.nvim-77962/coc-77962.vim
+在 43 中继续
+执行 User 自动命令 "CocNvimInit"
+自动命令 call s:uninstall_unused_coc_extensions()
+
+执行 User 自动命令 "CocNvimInit"
+自动命令 call s:doautocmd_from_coc()
+
+没有匹配的自动命令
+没有匹配的自动命令
+执行 CursorMoved 自动命令 "*"
+自动命令 call s:Autocmd('CursorMoved', +expand('<abuf>'), [line('.'), col('.')])
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call <sid>on_cursor_moved()
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call s:Highlight_Matching_Pair()
+
+执行 CursorMoved 自动命令 "<buffer=1>"
+自动命令 call s:set_cursor()
+
+执行 CursorMoved 自动命令 "*"
+自动命令 call coc#rpc#notify('doAutocmd', [1])
+
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/highlight.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/highlight.vim
+在 41 中继续
+执行 CursorHold 自动命令 "*"
+自动命令 call coc#float#check_related()
+
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/float.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/float.vim
+在 CursorHold 自动命令 "*" 中继续
+自动命令 call s:Autocmd('CursorHold', +expand('<abuf>'))
+
+执行 CursorHold 自动命令 "*"
+自动命令 silent! checktime
+
+执行 CursorHold 自动命令 "<buffer=1>"
+自动命令 if (&ft == "" || &ft == "conf") | call b:PolyglotObserve() | endif
+
+执行 CursorHold 自动命令 "*"
+自动命令 call <sid>ws_refresh()
+
+
+执行 BufWinLeave 自动命令 "*"
+自动命令 call s:Autocmd('BufWinLeave', +expand('<abuf>'), bufwinid(+expand('<abuf>')))
+
+执行 BufUnload 自动命令 "*"
+自动命令 call s:Autocmd('BufUnload', +expand('<abuf>'))
+
+执行 BufUnload 自动命令 "*"
+自动命令 call <sid>on_window_changed('BufUnload')
+
+执行 BufUnload 自动命令 "*"
+自动命令 call airline#extensions#tabline#buflist#invalidate()
+
+执行 VimLeavePre 自动命令 "*"
+自动命令 let g:coc_vim_leaving = 1
+
+执行 VimLeavePre 自动命令 "*"
+自动命令 call s:vm_persist()
+
+执行 VimLeavePre 自动命令 "*"
+自动命令 call s:on_vimleavepre()
+
+执行 VimLeavePre 自动命令 "*"
+自动命令 call coc#rpc#request('doAutocmd', [2])
+
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/compat.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/compat.vim
+在 41 中继续
+chdir(/Users/sohunjug/Code/sohunjug/rust/nacos-rs-sdk)
+chdir(/Applications/MacVim.app/Contents/Resources/vim)
+fchdir() to previous dir
+执行 "$VIM/vimrc"
+结束执行 $VIM/vimrc
+chdir(/Users/sohunjug)
+fchdir() to previous dir
+不能执行 "$HOME/.vimrc"
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+执行 "~/.vim/vimrc"
+chdir(/Users/sohunjug/.vim/autoload)
+fchdir() to previous dir
+第 44 行: 执行 "/Users/sohunjug/.vim/autoload/plug.vim"
+结束执行 /Users/sohunjug/.vim/autoload/plug.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 45 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plug.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plug.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect)
+fchdir() to previous dir
+第 4 行: 执行 "/Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect/csv.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/csv.vim/ftdetect/csv.vim
+在 <SNR>3_source 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 83 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 148 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 148 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect)
+fchdir() to previous dir
+第 2289 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/ftdetect/snippets.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-json/ftdetect/json.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-markdown/ftdetect/markdown.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/ftdetect/tex.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/ftdetect/polyglot.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-log-highlighting/ftdetect/log.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect)
+fchdir() to previous dir
+第 149 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/ftdetect/gofiletype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras)
+fchdir() to previous dir
+第 3602 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/extras/filetype.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/init.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 83 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 plug#end 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 86 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 19 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+在 plug#end 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload)
+fchdir() to previous dir
+第 18 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/rpc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/rpc.vim
+在 coc#config 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc.nvim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-clap.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-clap.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/fzf.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/fzf.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/gina.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/gina.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc-fzf.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/coc-fzf.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/caw.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/caw.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-doge.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-doge.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/indentLine.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/indentLine.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/clever-f.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/clever-f.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-rooter.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-rooter.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-bookmarks.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-bookmarks.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/ultisnips.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/ultisnips.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/neoformat.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/neoformat.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/rainbow.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/rainbow.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload)
+fchdir() to previous dir
+第 20 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-airline.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vista.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vista.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-surround.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-surround.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-better-whitespace.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-better-whitespace.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-choosewin.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-choosewin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easymotion.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easymotion.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easy-align.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-easy-align.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-visual-multi.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-visual-multi.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-floaterm.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-floaterm.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimwiki.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimwiki.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-markdown.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-markdown.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 1 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-anyfold.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-startify.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-startify.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload)
+fchdir() to previous dir
+第 156 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload/which_key.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-which-key/autoload/which_key.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-which-key.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/dict.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/dict.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx)
+fchdir() to previous dir
+第 229 行: 执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/custom.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/custom.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx)
+fchdir() to previous dir
+第 3 行: 执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/autoload/defx/util.vim
+在 defx#custom#column 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/defx.nvim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/close-buffers.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/close-buffers.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimtex.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vimtex.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/zoomwintab.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/zoomwintab.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-polyglot.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-polyglot.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-log-highlighting.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-log-highlighting.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload/syncfile.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/syncfile.vim/autoload/syncfile.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/syncfile.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/MatchTagAlways.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/MatchTagAlways.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-hexokinase.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-hexokinase.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-go.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/vim-go.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/goyo.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/goyo.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/limelight.vim.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/limelight.vim.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/undotree.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/undotree.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/plugins)
+fchdir() to previous dir
+第 97 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/plugins/VimFMZ.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/plugins/VimFMZ.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/custom)
+fchdir() to previous dir
+第 107 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/custom/alt.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/custom/alt.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config/custom)
+fchdir() to previous dir
+第 107 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/custom/session.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/custom/session.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 112 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/base.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 3 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 15 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 19 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 4 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/base.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 114 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/keymap.vim"
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/keymap.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+chdir(/Users/sohunjug/Code/dotfiles/.vim/config)
+fchdir() to previous dir
+第 116 行: 执行 "/Users/sohunjug/Code/dotfiles/.vim/config/theme.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/srcery-vim/colors)
+fchdir() to previous dir
+第 26 行: 执行 "/Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 8 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 11 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 13 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/srcery-vim/colors/srcery.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/colors)
+fchdir() to previous dir
+第 30 行: 执行 "/Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 13 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+第 15 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+在 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/gruvbox/colors/gruvbox.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/config/theme.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/vimrc 中继续
+结束执行 ~/.vim/vimrc
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin/coc.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/util.vim
+在 coc#rpc#start_server 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 14 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/client.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/client.vim
+在 coc#rpc#start_server 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/plugin/coc.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-clap/plugin/clap.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-clap/plugin/clap.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin/fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/fzf.vim/plugin/fzf.vim
+chdir(/Users/sohunjug/.fzf/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.fzf/plugin/fzf.vim"
+结束执行 /Users/sohunjug/.fzf/plugin/fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin/gitmessenger.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/git-messenger.vim/plugin/gitmessenger.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/gina.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/gina.vim/plugin/gina.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/gina.vim/plugin/gina.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin/coc_fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc-fzf/plugin/coc_fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/caw.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/caw.vim/plugin/caw.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/caw.vim/plugin/caw.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin/LanguageTool.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-LanguageTool/plugin/LanguageTool.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin/clever-f.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/clever-f.vim/plugin/clever-f.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin/rooter.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-rooter/plugin/rooter.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin/vimsnippets.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-snippets/plugin/vimsnippets.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips)
+fchdir() to previous dir
+第 28 行: 执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips/map_keys.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/autoload/UltiSnips/map_keys.vim
+在 /Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/plugin/UltiSnips.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/neoformat/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/neoformat/plugin/neoformat.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/neoformat/plugin/neoformat.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/plugin/rainbow_main.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/plugin/rainbow_main.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 293 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/init.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/init.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 128 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/parts.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/parts.vim
+在 airline#init#bootstrap 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter)
+fchdir() to previous dir
+第 144 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter/short_path.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/formatter/short_path.vim
+在 airline#init#bootstrap 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 71 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/util.vim
+在 <SNR>98_airline_toggle 中继续
+没有匹配的自动命令
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/plugin/airline.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin/airline-themes.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline-themes/plugin/airline-themes.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vista.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vista.vim/plugin/vista.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vista.vim/plugin/vista.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-surround/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-surround/plugin/surround.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-surround/plugin/surround.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin/better-whitespace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-better-whitespace/plugin/better-whitespace.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm)
+fchdir() to previous dir
+第 59 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/plugs.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/plugs.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm)
+fchdir() to previous dir
+第 60 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps)
+fchdir() to previous dir
+第 13 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps/all.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/autoload/vm/maps/all.vim
+在 <SNR>109_build_permanent_maps 中继续
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Switch Mode"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Surround"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Next"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Prev"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Goto Next"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Find Operator"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Goto Prev"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Remove Region"
+处理 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim[60]..function vm#maps#default[2]..<SNR>109_build_permanent_maps 时发生错误:
+第   17 行:
+E716: Key not present in Dictionary: "Invert Direction"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-visual-multi/plugin/visual-multi.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin/anyfold.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-anyfold/plugin/anyfold.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/plugin/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/plugin/startify.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin/which_key.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-which-key/plugin/which_key.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin/defx.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx.nvim/plugin/defx.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-icons/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/defx-icons/plugin/defx_icons.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/defx-icons/plugin/defx_icons.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin/bclose.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/bclose.vim/plugin/bclose.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin/close-buffers.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/close-buffers.vim/plugin/close-buffers.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin/smoothie.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-smoothie/plugin/smoothie.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin/vimcdoc.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimcdoc/plugin/vimcdoc.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin/syncfile.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/syncfile.vim/plugin/syncfile.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase)
+fchdir() to previous dir
+第 24 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/v1.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/v1.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 15 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/full_hex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/full_hex.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 17 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/triple_hex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/triple_hex.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 19 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgb.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgb.vim
+在 hexokinase#v1#setup 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns)
+fchdir() to previous dir
+第 21 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgba.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/autoload/hexokinase/patterns/rgba.vim
+在 hexokinase#v1#setup 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-hexokinase/plugin/hexokinase.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/config.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/config.vim
+在 <SNR>127_checkVersion 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go)
+fchdir() to previous dir
+第 271 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/util.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/autoload/go/util.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-go/plugin/go.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin/apathy.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-apathy/plugin/apathy.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin/startuptime.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startuptime/plugin/startuptime.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/undotree/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/undotree/plugin/undotree.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/undotree/plugin/undotree.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin/fmzsync.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/VimFMZ/plugin/fmzsync.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim"
+--- 自动命令 ---
+coc_nvim  CursorHold
+    *         call coc#float#check_related()
+	最近修改于 ~/.cache/vim/plugins/coc.nvim/plugin/coc.vim line 302
+              call s:Autocmd('CursorHold', +expand('<abuf>'))
+	最近修改于 ~/.cache/vim/plugins/coc.nvim/plugin/coc.vim line 323
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/macros)
+fchdir() to previous dir
+第 99 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.fzf)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/git-messenger.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gina.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/caw.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-deus)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-monokai)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-one)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox-material)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/forest-night)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/srcery-vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/nord-vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hybrid)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-colors-solarized)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/oceanic-material)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-LanguageTool)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/indentLine)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/clever-f.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-rooter)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-snippets)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/neoformat)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline-themes)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/tender.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vista.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-surround)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-repeat)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-better-whitespace)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-json)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-visual-multi)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-markdown)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-which-key)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx.nvim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/nvim-yarp)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hug-neovim-rpc)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-icons)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/defx-git)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/bclose.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/close-buffers.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-smoothie)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vimcdoc)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-log-highlighting)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/syncfile.vim)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-hexokinase)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-go)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-apathy)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startuptime)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/undotree)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/VimFMZ)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/vimfiles)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt)
+fchdir() to previous dir
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin)
+fchdir() to previous dir
+第 4 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+在 /Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim 中继续
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/plugin/polyglot.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+chdir(/Users/sohunjug/.vim/pack/kite/start)
+fchdir() to previous dir
+chdir(/Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot)
+fchdir() to previous dir
+第 21 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim 中继续
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+第 21 行: 执行 "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+结束执行 /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim 中继续
+结束执行 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/plugin/kite.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf)
+fchdir() to previous dir
+第 8 行: 执行 "/Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf/vim.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/fzf.vim/autoload/fzf/vim.vim
+在 /Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc-fzf/after/plugin/coc_fzf.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin/indentLine.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/indentLine/after/plugin/indentLine.vim
+chdir(/Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin)
+fchdir() to previous dir
+执行 "/Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin/UltiSnips_after.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/ultisnips/after/plugin/UltiSnips_after.vim
+Reading viminfo file "/Users/sohunjug/.viminfo" 信息 oldfiles 失败
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 6 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions.vim
+在 <SNR>98_init 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 16 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/quickfix.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/quickfix.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 30 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/gina.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/gina.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 40 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/netrw.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/netrw.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 46 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/fzf.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/fzf.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 58 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 11 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/section.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/section.vim
+在 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/highlighter.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/highlighter.vim
+在 <SNR>160_wrap_accent 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/term.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 92 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/undotree.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/undotree.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 102 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/hunks.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/hunks.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 120 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vista.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vista.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 126 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/bookmark.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/bookmark.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 156 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/branch.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/branch.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 228 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/whitespace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/whitespace.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 238 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/po.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/po.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 243 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/wordcount.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/wordcount.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 248 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 6 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/autoshow.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 7 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabs.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 8 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buffers.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+在 <SNR>170_toggle_on 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 298 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/keymap.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/keymap.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vimtex/autoload)
+fchdir() to previous dir
+第 313 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vimtex/autoload/vimtex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vimtex/autoload/vimtex.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 315 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vimtex.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/vimtex.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 326 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/searchcount.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/searchcount.vim
+在 airline#extensions#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes)
+fchdir() to previous dir
+第 14 行: 执行 "/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes/gruvbox.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes)
+fchdir() to previous dir
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/themes.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/themes.vim
+在 airline#themes#gruvbox#refresh 中继续
+结束执行 /Users/sohunjug/.cache/vim/plugins/gruvbox/autoload/airline/themes/gruvbox.vim
+在 airline#switch_theme 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/builder.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/builder.vim
+在 <SNR>39_invoke_funcrefs 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions)
+fchdir() to previous dir
+第 2 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/default.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/default.vim
+在 airline#util#exec_funcrefs 中继续
+没有匹配的自动命令
+没有匹配的自动命令
+没有匹配的自动命令
+处理 BufWinEnter 自动命令 "*"..function <SNR>106_SetupAutoCommands[11]..<SNR>106_HighlightEOLWhitespace[1]..<SNR>106_ClearHighlighting 时发生错误:
+第    1 行:
+E802: Invalid ID: -1 (must be greater than or equal to 1)
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot)
+fchdir() to previous dir
+第 17 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/sleuth.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-polyglot/autoload/polyglot/sleuth.vim
+在 <SNR>7_detect_indent 中继续
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite.vim"
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/utils.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/utils.vim
+在 /Users/sohunjug/Code/dotfiles/.vim/pack/kite/start/vim-plugin/autoload/kite.vim 中继续
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite.vim
+在 BufEnter 自动命令 "*" 中继续
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/languages.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/languages.vim
+在 kite#bufenter 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/autoload/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/autoload/startify.vim
+在 VimEnter 自动命令 "*" 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buflist.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+在 BufDelete 自动命令 "*" 中继续
+startify: Can't read viminfo file. Read :help startify-faq-02
+处理 VimEnter 自动命令 "*"..function startify#insane_in_the_membrane 时发生错误:
+第  119 行:
+E490: 找不到折叠
+not found in 'runtimepath': "ftplugin/startify.vim ftplugin/startify_*.vim ftplugin/startify/*.vim"
+not found in 'runtimepath': "indent/startify.vim"
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload/anyfold.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-anyfold/autoload/anyfold.vim
+在 FileType 自动命令 "*" 中继续
+没有匹配的自动命令
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-startify/syntax)
+fchdir() to previous dir
+第 25 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-startify/syntax/startify.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-startify/syntax/startify.vim
+在 <SNR>20_SynSet 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/autoload)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow_main.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow_main.vim
+在 Syntax 自动命令 "*" 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/rainbow/autoload)
+fchdir() to previous dir
+第 3 行: 执行 "/Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/rainbow/autoload/rainbow.vim
+在 rainbow_main#load 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider/yanks.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-clap/autoload/clap/provider/yanks.vim
+在 VimEnter 自动命令 "*" 中继续
+  completeopt=menu,preview
+chdir(/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/async.vim"
+结束执行 /Users/sohunjug/.vim/pack/kite/start/vim-plugin/autoload/kite/async.vim
+在 kite#utils#kite_running 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 9 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/api.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/api.vim
+在 kite#async#sync 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 9 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+在 airline#extensions#tabline#get 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 10 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabws.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/tabws.vim
+在 airline#extensions#tabline#get 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline)
+fchdir() to previous dir
+第 15 行: 执行 "/Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/builder.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/vim-airline/autoload/airline/extensions/tabline/builder.vim
+在 airline#extensions#tabline#new_builder 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin/coc_explorer.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/plugin/coc_explorer.vim
+在 43 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/highlight.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/highlight.vim
+在 41 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin)
+fchdir() to previous dir
+第 5 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin/fzf_preview.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-fzf-preview/plugin/fzf_preview.vim
+在 43 中继续
+chdir(/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/mappings.vim"
+结束执行 /Users/sohunjug/.cache/vim/coc/extensions/node_modules/coc-explorer/autoload/coc_explorer/mappings.vim
+在 41 中继续
+chdir(/var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vA5nAbg/coc.nvim-78835)
+fchdir() to previous dir
+第 5 行: 执行 "/var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vA5nAbg/coc.nvim-78835/coc-78835.vim"
+结束执行 /var/folders/91/vx_qsyrj715336hpyzkhwjlc0000gn/T/vA5nAbg/coc.nvim-78835/coc-78835.vim
+在 43 中继续
+没有匹配的自动命令
+没有匹配的自动命令
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/highlight.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/highlight.vim
+在 41 中继续
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 0 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/float.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/float.vim
+在 CursorHold 自动命令 "*" 中继续
+
+chdir(/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc)
+fchdir() to previous dir
+第 1 行: 执行 "/Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/compat.vim"
+结束执行 /Users/sohunjug/.cache/vim/plugins/coc.nvim/autoload/coc/compat.vim
+在 41 中继续
+chdir(/Users/sohunjug/Code/sohunjug/rust/nacos-rs-sdk)

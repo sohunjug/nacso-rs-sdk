@@ -1,11 +1,13 @@
 // use std::collections::HashMap;
-use crate::model::CLIENT;
 use crate::client::NacosClient;
+use crate::model::CLIENT;
+// use reqwest::RequestBuilder;
 // use reqwest::Response;
+use nacos_rs_sdk_macro::{Builder, Value};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Builder, Value)]
 pub struct NacosConfig {
     scheme: String,
     auth: bool,
@@ -26,7 +28,7 @@ struct Token {
     admin: bool,
 }
 
-#[derive(Serialize, Default, Debug, Clone)]
+#[derive(Serialize, Default, Debug, Clone, Value)]
 struct Login {
     username: String,
     password: String,
@@ -55,34 +57,6 @@ impl Default for NacosConfig {
 }
 
 impl NacosConfig {
-    pub fn new(scheme: &str, nacos_ip: &str, nacos_port: u32) -> Self {
-        Self {
-            scheme: scheme.to_string(),
-            auth: false,
-            nacos_ip: nacos_ip.to_string(),
-            nacos_port,
-            nacos_user: "nacos".to_string(),
-            nacos_pass: "nacos".to_string(),
-        }
-    }
-
-    pub fn new_with_auth(
-        scheme: &str,
-        nacos_ip: &str,
-        nacos_port: u32,
-        nacos_user: &str,
-        nacos_pass: &str,
-    ) -> Self {
-        Self {
-            scheme: scheme.to_string(),
-            auth: true,
-            nacos_ip: nacos_ip.to_string(),
-            nacos_port,
-            nacos_user: nacos_user.to_string(),
-            nacos_pass: nacos_pass.to_string(),
-        }
-    }
-
     pub fn swap(&mut self, ex: Self) -> Self {
         let prev = self.clone();
         self.scheme = ex.scheme;
@@ -107,7 +81,10 @@ impl NacosConfig {
     }
 
     pub fn connect(&self) -> NacosClient {
-        NacosClient::builder().session(self.clone()).build().unwrap()
+        NacosClient::builder()
+            .session(self.clone())
+            .build()
+            .unwrap()
     }
 
     pub async fn connect_with_auth(&self) -> Result<NacosClient, Box<dyn Error>> {
@@ -122,7 +99,11 @@ impl NacosConfig {
             println!("--> Res {:?}", res);
             let result = res.json::<Token>().await?;
             println!("--> Result {:?}", result);
-            Ok(NacosClient::builder().session(self.clone()).token(result.token.to_owned()).build().unwrap())
+            Ok(NacosClient::builder()
+                .session(self.clone())
+                .token(result.token.to_owned())
+                .build()
+                .unwrap())
         } else {
             Ok(self.connect())
         }

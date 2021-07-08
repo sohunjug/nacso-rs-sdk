@@ -1,67 +1,53 @@
+use super::{Delete, Get, Post, Put};
+use crate::util::{from_str, split_deserialize, split_serialize};
+use nacos_rs_sdk_macro::{Builder, Delete, Get, Post, Put, Value};
+use serde::{Deserialize, Serialize};
 
-#[derive(Default, Debug, Clone)]
-pub struct ServerConfig<'a> {
-    server_ip: &'a str,
-    pub server_port: u16,
-    pub server_name: &'a str,
-    pub ephemeral: bool,
-    pub group_name: Option<&'a str>,
+const QUERYSERVICE_URI: &str = "/v1/ns/service";
+const CREATESERVICE_URI: &str = "/v1/ns/service";
+const UPDATESERVICE_URI: &str = "/v1/ns/service";
+const DELETESERVICE_URI: &str = "/v1/ns/service";
+
+const QUERYSERVICES_URI: &str = "/v1/ns/service/list";
+
+#[derive(Serialize, Deserialize, Builder, Value, Default, Debug, Clone, Post)]
+#[serde(rename_all = "camelCase")]
+pub struct CreateService {
+    pub protect_threshold: Option<f32>,
+    pub group_name: Option<String>,
+    pub namespace_id: Option<String>,
+    pub metadata: Option<String>,
+    pub selector: Option<String>,
 }
 
-impl<'a> ServerConfig<'a> {
-    pub fn set_server_port(&mut self, server_port: u16) {
-        self.server_port = server_port;
-    }
-    pub fn set_server_name(&mut self, server_name: &'a str) {
-        self.server_name = server_name;
-    }
-    pub fn set_ephemeral(&mut self, ephemeral: bool) {
-        self.ephemeral = ephemeral;
-    }
-    pub fn set_group_name(&mut self, group_name: Option<&'a str>) {
-        self.group_name = group_name;
-    }
+#[derive(Serialize, Deserialize, Builder, Value, Default, Debug, Clone, Put)]
+#[serde(rename_all = "camelCase")]
+pub struct UpdateService {
+    pub protect_threshold: Option<f32>,
+    pub group_name: Option<String>,
+    pub namespace_id: Option<String>,
+    pub metadata: Option<String>,
+    pub selector: Option<String>,
 }
 
-impl<'a> ServerConfig<'a> {
-    pub fn server_ip(&self) -> &str { &self.server_ip }
-    pub fn server_port(&self) -> u16 {
-        self.server_port
-    }
-    pub fn server_name(&self) -> &str {
-        &self.server_name
-    }
-    pub fn ephemeral(&self) -> bool {
-        self.ephemeral
-    }
-    pub fn group_name(&self) -> &Option<&'a str> {
-        &self.group_name
-    }
+#[derive(Serialize, Deserialize, Builder, Value, Default, Debug, Clone, Get)]
+#[serde(rename_all = "camelCase")]
+pub struct QueryService {
+    pub group_name: Option<String>,
+    pub namespace_id: Option<String>,
 }
 
-impl<'a> ServerConfig<'a> {
-    pub fn new(server_ip: &'a str, server_port: u16, server_name: &'a str) -> Self {
-        Self {
-            server_ip,
-            server_port,
-            server_name,
-            ephemeral: false,
-            group_name: None,
-        }
-    }
+#[derive(Serialize, Deserialize, Builder, Value, Default, Debug, Clone, Delete)]
+#[serde(rename_all = "camelCase")]
+pub struct DeleteService {
+    pub group_name: Option<String>,
+    pub namespace_id: Option<String>,
+}
 
-    pub(crate) fn init_map(&self) -> HashMap<String, String> {
-        let mut map = HashMap::<String, String>::new();
-        map.insert("ip".to_string(), self.server_ip().to_string());
-        map.insert("port".to_string(), self.server_port().to_string());
-        map.insert("serviceName".to_string(), self.server_name().to_string());
-        if self.ephemeral {
-            map.insert("ephemeral".to_string(), true.to_string());
-        }
-        if let Some(s) = &self.group_name {
-            map.insert("groupName".to_string(), s.to_string());
-        }
-        map
-    }
+#[derive(Serialize, Builder, Value, Default, Debug, Clone, Get)]
+#[serde(rename_all = "camelCase")]
+pub struct QueryServices {
+    pub group_name: Option<String>,
+    pub namespace_id: Option<String>,
 }
 
