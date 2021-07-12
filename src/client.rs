@@ -1,4 +1,4 @@
-use crate::model::config::Config;
+use crate::model::config::{Config, ConfigContent, Listener};
 use crate::model::instance::{
     Instance, InstanceBeat, InstanceBeatOption, InstanceObject, Instances, QueryInstanceOption,
     QueryInstances, QueryInstancesOption, RegisterInstanceOption, RemoveInstanceOption,
@@ -12,7 +12,7 @@ use std::error::Error;
 // use std::collections::HashMap;
 // use std::sync::{Arc, RwLock};
 // use lazy_static::lazy_static;
-// use std::time::Duration;
+use std::time::Duration;
 // use tokio::task;
 // use tokio::time;
 // use crate::api::Get;
@@ -163,6 +163,54 @@ impl NacosClient {
             .send()
             .await?;
         Ok(res)
+    }
+
+    pub async fn detail_config(
+        &self,
+        service: &Config,
+    ) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self.get(service.get_uri()).query(&service).send().await?;
+        Ok(res.text().await?)
+    }
+
+    pub async fn publish_config(
+        &self,
+        service: &Config,
+        options: &Option<ConfigContent>,
+    ) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self
+            .post(service.post_uri())
+            .query(&service)
+            .query(&options)
+            .send()
+            .await?;
+        Ok(res.text().await?)
+    }
+
+    pub async fn delete_config(
+        &self,
+        service: &Config,
+    ) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self
+            .delete(service.delete_uri())
+            .query(&service)
+            .send()
+            .await?;
+        Ok(res.text().await?)
+    }
+
+    pub(crate) async fn listen_config(
+        &self,
+        listener: &Listener,
+    ) -> Result<String, Box<dyn Error + Send + Sync>> {
+        let res = self
+            .post(listener.post_uri())
+            .header("Long-Pulling-Timeout", "30000")
+            .query(&listener)
+            .timeout(Duration::from_secs(35))
+            .send()
+            .await?;
+        Ok(res.text().await?)
     }
 }
 

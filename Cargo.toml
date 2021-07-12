@@ -1,6 +1,6 @@
 [package]
 name = "nacos-rs-sdk"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["sohunjug <sohunjug@hotmail.com>"]
 edition = "2018"
 

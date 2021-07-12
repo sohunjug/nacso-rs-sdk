@@ -23,6 +23,7 @@ where
 //     }
 //     Ok(None)
 // }
+#[allow(unused)]
 pub fn from_str<'de, T, D>(deserializer: D) -> Result<T, D::Error>
 where
     T: FromStr,

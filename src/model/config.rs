@@ -9,6 +9,7 @@ use serde::{Deserialize, Serialize};
 // use tokio::{task, time};
 
 const CONFIG_URI: &str = "/v1/cs/configs";
+const LISTENER_URI: &str = "/v1/cs/configs/listener";
 
 #[derive(Serialize, Deserialize, Value, Builder, Default, Debug, Clone, Get, Post, Delete)]
 #[serde(rename_all = "camelCase")]
@@ -16,9 +17,19 @@ pub struct Config {
     pub data_id: String,
     pub group: String,
     pub tenant: Option<String>,
+}
+
+#[derive(Serialize, Deserialize, Value, Builder, Default, Debug, Clone)]
+#[serde(rename_all = "camelCase")]
+pub struct ConfigContent {
     #[serde(rename = "type")]
-    pub types: Option<String>,
-    pub content: Option<String>,
-    // #[serde(skip)]
-    // pub(crate) nacos: Option<Arc<RwLock<NacosClient>>>,
+    pub config_type: Option<String>,
+    pub content: String,
+}
+
+#[derive(Serialize, Deserialize, Value, Builder, Default, Debug, Clone, Post)]
+#[serde(rename_all = "camelCase")]
+pub struct Listener {
+    #[serde(rename = "Listening-Configs")]
+    pub listening_configs: String,
 }

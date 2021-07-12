@@ -1,7 +1,6 @@
-use nacos_rs_sdk::model::instance::{
-    Instance, InstanceObject, QueryInstances, RegisterInstanceOption,
-};
-use nacos_rs_sdk::NacosClient;
+use nacos_rs_sdk::model::config::{Config, ConfigContent};
+use nacos_rs_sdk::model::instance::{InstanceObject, QueryInstances, RegisterInstanceOption};
+// use nacos_rs_sdk::NacosClient;
 use nacos_rs_sdk::NacosConfig;
 use std::error::Error;
 // use std::sync::{Arc, RwLock};
@@ -50,6 +49,23 @@ async fn main() -> Result<(), Box<dyn Error>> {
         .unwrap();
     let r = client.list_instances_with_object(&ql, &None).await;
     println!(" -- > {:?}", r);
+    time::sleep(Duration::from_millis(5000)).await;
+    // let un = client.unregister_with_object(&&instance, &None).await;
+    // println!(" -- > DeRegister {:?}", un);
+    let c = Config::builder()
+        .group("cta".to_string())
+        .data_id("cta".to_string())
+        .tenant(namespace_id)
+        .build()
+        .unwrap();
+    let o = ConfigContent::builder()
+        .content("test".to_string())
+        .build()
+        .unwrap();
+    let r = client.publish_config(&c, &Some(o)).await;
+    println!(" -- > Publish Config {:#?}", r);
+    c.listen_config(client.clone(), |c| println!("{:#?}", c))
+        .await;
     loop {}
     // println!(" -- > DeRegister {:?}", &client.deregister().await);
 }
@@ -64,56 +80,4 @@ fn test_nacos_config() -> NacosConfig {
         .auth(true)
         .build()
         .unwrap()
-}
-
-#[cfg(test)]
-mod server_test {
-    use crate::test_nacos_config;
-    use nacos_rs_sdk::NacosConfig;
-
-    #[tokio::test]
-    async fn test_get_addr_simple() {
-        let addr = test_client().get_addr_simple("test").await.unwrap();
-        println!(" -- > addr : {}", addr);
-    }
-
-    #[tokio::test]
-    async fn test_get_instance() {
-        let instance = NacosServiceApi::get_instance(
-            test_client().nacos_config(),
-            "test",
-            "127.0.0.1",
-            8080,
-            &None,
-        )
-        .await;
-        println!(" -- > instance : {:?}", instance);
-    }
-
-    #[tokio::test]
-    async fn test_get_server() {
-        let server = NacosServiceApi::get_server(test_client().nacos_config(), "test", &None).await;
-        println!(" -- > server : {:?}", server);
-    }
-
-    #[tokio::test]
-    async fn test_get_server_list() {
-        let server_list =
-            NacosServiceApi::get_server_list(test_client().nacos_config(), 1, 10, &None).await;
-        println!(" -- > server_list : {:?}", server_list);
-    }
-
-    #[tokio::test]
-    async fn test_get_operator_servers() {
-        let operator_servers =
-            NacosServiceApi::get_operator_servers(test_client().nacos_config()).await;
-        println!(" -- > operator_servers : {:?}", operator_servers);
-    }
-
-    #[tokio::test]
-    async fn test_get_operator_metrics() {
-        let operator_metrics =
-            NacosServiceApi::get_operator_metrics(test_client().nacos_config()).await;
-        println!(" -- > operator_metrics : {:?}", operator_metrics);
-    }
 }
