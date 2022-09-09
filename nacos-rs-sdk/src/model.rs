@@ -1,6 +1,7 @@
 pub mod config;
 pub mod instance;
 pub mod nacos;
+pub mod service;
 
 // use async_trait::async_trait;
 use lazy_static::lazy_static;

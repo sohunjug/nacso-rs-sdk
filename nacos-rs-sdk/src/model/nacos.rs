@@ -17,6 +17,7 @@ pub struct NacosConfig {
     nacos_pass: String,
 }
 
+#[allow(dead_code)]
 #[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
 struct Token {
